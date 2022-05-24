@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <img src="" alt="">
+        <nav>
+            <ul>
+                <li><a href="aventura.html">Aventura</a></li>
+                <li><a href="alpinismo.html">Alpinismo</a></li>
+                <li><a href="../equipos/integrantes.html">Equipos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="" method="get" enctype="text/plain" >
+        <fieldset>
+            <legend>Info Personal</legend>
+            <div>
+                <label for="userName">Nombre</label>
+                <input type="text" id="userName" name="userName" placeholder="Coloque su nombre">
+            </div>
+            <div>
+                <label for="userPsw">Password</label>
+                <input type="password" id="userPsw" name="userPsw">
+            </div>
+            <div>
+                <label for="userMail">Su correo</label>
+                <input type="email" id="userMail" name="userMail" required>
+            </div>
+            <div>
+                <label for="userBio">Bio del usuario</label>
+                <textarea name="userBio" id="userBio" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <!--INFO DE PAGO-->
+        <fieldset>
+            <legend>Info de Pago</legend>
+            <div>
+                <div>
+                    <label for="userPay">Numero de la TDC</label>
+                    <input type="number" id="userPay" name="userPay" >
+                </div>
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="RESET">
+            <input type="button" value="NO HAGO NADA">
+        </div>
+    </form>
+</body>
+</html>
